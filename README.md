@@ -12,3 +12,7 @@ I have filled in some information about me
 
 I will apply more Bootstrap to my portfolio
 
+~~~ Commit ~~~
+~~~ Commit ~~~
+Put in project Sensify
+
