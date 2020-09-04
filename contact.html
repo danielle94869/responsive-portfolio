@@ -1,6 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+      body {
+        background-color: teal;
+      }
+    
+      .btn {
+        background-color: #a49adb;
+      }
+    
+      .nav-wrapper {
+        background-color: #7cdda4;
+      }
+    
+      #firstbox {
+        background-color: #f6fcff;
+        box-shadow: 5px 5px 2px #888888;
+        margin: 15px
+      }
+    
+      button {
+        margin: 10px
+      }
+      img {
+        max-width: 25%;
+        height: auto
+      }
+    body {
+      background-color: teal
+    }
+  </style>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="./reset.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -9,9 +39,30 @@
   <title>Daniel Le</title>
 </head>
 <body>
+  <div>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">Daniel Le</a>
+        <ul class="right hide-on-med-and-down">
+    <a class="main" href="./index.html">Main |</a>
+    <a class="about" href="./README.md">About |</a>
+    <a class="portfolio" href="./portfolio.html">Portfolio |</a>
+    <a class="contact" href="./contact.html">Contact |</a>
+        </ul>
+      </div>
+    </nav>
+  <!-- <nav id="navBar">
+    <a class="main" href="./index.html">Main |</a>
+    <a class="about" href="./README.md">About |</a>
+    <a class="portfolio" href="./portfolio.html">Portfolio |</a>
+    <a class="contact" href="./contact.html">Contact |</a>
+  </nav> -->
+  </div>
   <p>Name:</p>
+  <input id="name" type="text">
   <p>Phone number:</p>
+  <input id="phone" type="number">
   <p>Comments:</p>
-  <input class="form-group">
+  <input id="comment" type="text">
 </body>
 </html>
